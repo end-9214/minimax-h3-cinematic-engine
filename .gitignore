@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Modal auth — NEVER commit
+.modal.toml
+modal_config.json
+
+# Generated outputs (large binary files)
+output/
+*.mp4
+*.safetensors
+*.gguf
+*.pt
+*.bin
+*.ckpt
+
+# Input assets (your personal character sheets — keep locally)
+input_assets/*.jpg
+input_assets/*.png
+input_assets/*.webp
+input_assets/*.jpeg
+!input_assets/.gitkeep
+
+# Environment files
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
